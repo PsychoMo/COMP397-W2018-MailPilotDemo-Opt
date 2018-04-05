@@ -26,6 +26,7 @@ module scenes {
 
         // Initialize Game Variables and Objects
         public Start(): void {
+
             this._ocean = new objects.Ocean();
 
             this._welcomeLabel = new objects.Label("Mail Pilot", "60px", "Consolas", "#FFFF00", 320, 240, true);
